@@ -1,4 +1,4 @@
-function graph_single(x,y, titulo, forma)
+function graph_log(x,y, titulo, forma)
 
     figure1 = figure;
 
@@ -13,5 +13,4 @@ function graph_single(x,y, titulo, forma)
     ylabel ( ' Eje Y ' );
     xlabel ( ' Eje X' );
     grid on %Muestra el grafico con grilla
-    plot ( x , y , forma );
-    
+    semilogy( x , y , forma );
