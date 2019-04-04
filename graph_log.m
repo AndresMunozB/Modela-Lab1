@@ -1,16 +1,17 @@
-function graph_log(x,y, titulo, forma)
+function graph_log(x2,y3, titulo, forma)
 
-    figure1 = figure;
-
-    % Create axes
-    axes1 = axes('Parent',figure1);
-    box(axes1,'on');
-    hold(axes1,'on');
-    hold on;
-    grid on
-
+    figure2 = figure;
+    
+    axes2 = axes('Parent',figure2);
+    box(axes2,'on');
+    semilogy( x2 , y3 , forma );
+    grid on;
+    
     title ( titulo );
     ylabel ( ' Eje Y ' );
     xlabel ( ' Eje X' );
-    grid on %Muestra el grafico con grilla
-    semilogy( x , y , forma );
+    
+    
+    
+    
+    
