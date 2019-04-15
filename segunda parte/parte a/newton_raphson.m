@@ -9,4 +9,6 @@ function [raiz] = newton_raphson(poly, iter, tol, xi)
     else
         raiz = newton_raphson(poly, iter-1, tol, xr);
     end
+end
+
         
