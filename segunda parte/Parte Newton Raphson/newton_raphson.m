@@ -7,6 +7,8 @@ function [raiz] = newton_raphson(poly, iter, tol, xi)
     elseif (iter == 0)
         raiz = xr;
     else
+        a = 100 - iter;
+        
         raiz = newton_raphson(poly, iter-1, tol, xr);
     end
 end

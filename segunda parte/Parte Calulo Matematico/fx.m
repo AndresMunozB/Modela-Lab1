@@ -1,6 +1,7 @@
+%Función que calcula 
 function y = fx(x)
-    if length(x) < 8
-        disp('   El largo del vector debe ser mayor o igual que 8');
+    if length(x) < 4
+        disp('   El largo del vector debe ser mayor o igual que 4');
         y = NaN;
         return;
     end
