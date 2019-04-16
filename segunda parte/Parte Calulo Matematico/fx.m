@@ -1,4 +1,8 @@
-%Función que calcula 
+%Función que calcula la resta entre las raíces cuadradas de la suma de los 
+%mayores  y la suma de los menores números del vector. 
+
+%ENTRADA: Vector con números (el largo debe ser mayor o igual a 4)
+%SALIDA: Calculo matematico descrito anteriormente (reste de dos raíces cuadradas).
 function y = fx(x)
     if length(x) < 4
         disp('   El largo del vector debe ser mayor o igual que 4');
